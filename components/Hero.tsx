@@ -1,4 +1,4 @@
-import { whatsappLink } from "@/lib/site-config";
+import { siteConfig, whatsappLink } from "@/lib/site-config";
 import ScrollReveal from "./ScrollReveal";
 
 const trustBadges = [
@@ -34,7 +34,7 @@ export default function Hero() {
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-7 text-muted sm:text-lg">
-            Redline Auto delivers professional ECM tuning, TCM tuning, ECU remapping,
+            {siteConfig.name} delivers professional ECM tuning, TCM tuning, ECU remapping,
             transmission rebuild, and engine rebuild services — backed by dyno data,
             not guesswork. More power, smoother shifts, better efficiency, and an
             engine that lasts.

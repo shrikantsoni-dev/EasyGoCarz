@@ -22,7 +22,7 @@ export default function ContactCta() {
 
   const buildMessage = () =>
     [
-      `Hi Redline Auto, I'd like a free consultation.`,
+      `Hi ${siteConfig.name}, I'd like a free consultation.`,
       `Name: ${name || "-"}`,
       `Phone: ${phone || "-"}`,
       `Car: ${car || "-"}`,

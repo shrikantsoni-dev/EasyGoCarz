@@ -1,15 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { siteConfig } from "@/lib/site-config";
 
 const navLinks = [
-  { href: "#services", label: "Services" },
-  { href: "#why-us", label: "Why Us" },
-  { href: "#process", label: "Process" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#why-us", label: "Why Us" },
+  { href: "/#process", label: "Process" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/#location", label: "Location" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export default function Header() {
@@ -38,14 +40,16 @@ export default function Header() {
           : "bg-transparent border-b border-transparent"
       }`}
     >
-      <div className="container-px mx-auto flex max-w-7xl items-center justify-between py-3.5">
-        <Link href="#top" className="flex items-center gap-2 shrink-0">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-gradient-to-br from-red-bright to-red-dark font-display text-lg font-bold text-white">
-            R
-          </span>
-          <span className="font-display text-xl font-bold tracking-wide text-foreground">
-            REDLINE<span className="text-red-bright">AUTO</span>
-          </span>
+      <div className="container-px mx-auto flex max-w-7xl items-center justify-between py-2.5">
+        <Link href="#top" className="flex shrink-0 items-center">
+          <Image
+            src="/RedlineLogoCropped.png"
+            alt={`${siteConfig.name} logo`}
+            width={524}
+            height={140}
+            priority
+            className="h-8 w-auto sm:h-9"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">

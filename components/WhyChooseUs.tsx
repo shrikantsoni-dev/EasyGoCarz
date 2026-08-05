@@ -1,3 +1,4 @@
+import { siteConfig } from "@/lib/site-config";
 import ScrollReveal from "./ScrollReveal";
 
 const reasons = [
@@ -34,7 +35,7 @@ export default function WhyChooseUs() {
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-5 lg:gap-10">
           <ScrollReveal className="lg:col-span-2">
             <p className="text-xs font-semibold uppercase tracking-widest text-red-bright">
-              Why Redline Auto
+              Why {siteConfig.name}
             </p>
             <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
               Tuning Is Technical. Trust Shouldn&rsquo;t Be Optional.
