@@ -4,7 +4,7 @@ import ScrollReveal from "./ScrollReveal";
 const reasons = [
   {
     title: "Diagnostics Before Decisions",
-    desc: "We read your ECM/TCM data and inspect mechanical condition before recommending any tune or rebuild — no cookie-cutter files, no guesswork.",
+    desc: "We read your ECM/TCM data and inspect mechanical condition before recommending any tune or rebuild. No cookie cutter files, no guesswork.",
   },
   {
     title: "Original File Backups",
@@ -12,19 +12,19 @@ const reasons = [
   },
   {
     title: "Built for Your Fuel & Climate",
-    desc: "Maps are calibrated for real-world conditions — fuel quality, altitude, and load — not a generic tune built for a different market.",
+    desc: "Maps are calibrated for real world conditions, including fuel quality, altitude, and load, not a generic tune built for a different market.",
   },
   {
     title: "Clear, Honest Pricing",
-    desc: "You get a written quote before any work begins. No hidden charges, no surprise add-ons once your car is on the lift.",
+    desc: "You get a written quote before any work begins. No hidden charges, no surprise add ons once your car is on the lift.",
   },
   {
-    title: "Post-Service Support",
-    desc: "Tuning and rebuilds are followed up with a check-in and support window, so any fine-tuning after your first few drives is covered.",
+    title: "Post Service Support",
+    desc: "Tuning and rebuilds are followed up with a check in and support window, so any fine tuning after your first few drives is covered.",
   },
   {
     title: "Every Part Explained",
-    desc: "In a rebuild, we show you what was worn and why it's being replaced — you approve the work, you understand the invoice.",
+    desc: "In a rebuild, we show you what was worn and why it's being replaced. You approve the work, you understand the invoice.",
   },
 ];
 
@@ -43,7 +43,7 @@ export default function WhyChooseUs() {
             <p className="mt-4 text-base leading-7 text-muted">
               ECM and TCM tuning directly affects how safely and reliably your car
               runs. That&rsquo;s why our process is built around transparency at
-              every step — from the first diagnostic read to the final test drive.
+              every step, from the first diagnostic read to the final test drive.
             </p>
             <div className="mt-8 rounded-2xl border border-red-bright/20 bg-gradient-to-br from-red/10 to-transparent p-5">
               <p className="text-sm leading-6 text-foreground/90">

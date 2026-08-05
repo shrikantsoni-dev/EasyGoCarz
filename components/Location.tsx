@@ -2,7 +2,7 @@ import { siteConfig } from "@/lib/site-config";
 import ScrollReveal from "./ScrollReveal";
 
 const hours = [
-  { day: "Monday – Saturday", time: "10:00 AM – 8:00 PM" },
+  { day: "Monday to Saturday", time: "10:00 AM to 8:00 PM" },
   { day: "Sunday", time: "By appointment" },
 ];
 
@@ -49,9 +49,11 @@ export default function Location() {
                 <div>
                   <p className="text-xs uppercase tracking-wide text-muted">Address</p>
                   <address className="mt-1 text-sm not-italic leading-6 text-foreground">
-                    386/76, Opp. Vasant Square Mall,
+                    386/76, Opposite Vasant Square Mall,
                     <br />
-                    Vasant Kunj, New Delhi, 110070
+                    Masoodpur, Sector D, Vasant Kunj,
+                    <br />
+                    New Delhi, Delhi 110070
                   </address>
                 </div>
               </div>

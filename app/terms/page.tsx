@@ -24,7 +24,7 @@ export default function Terms() {
         <p>
           Any figure discussed before inspection is an estimate only. A binding quote is
           issued in writing after we have diagnosed your vehicle. If additional work is
-          found once we begin, we will contact you for approval before proceeding — you
+          found once we begin, we will contact you for approval before proceeding. You
           will not be charged for work you have not authorised.
         </p>
       </section>
@@ -55,7 +55,7 @@ export default function Terms() {
         <p>
           Tuning assumes your vehicle is mechanically sound. We may decline to tune a
           vehicle if diagnostics reveal a fault that would make tuning unsafe or
-          unreliable. We are not responsible for pre-existing faults, wear, or failures
+          unreliable. We are not responsible for pre existing faults, wear, or failures
           unrelated to the work we carry out.
         </p>
       </section>
@@ -75,7 +75,7 @@ export default function Terms() {
         <p>
           We stand behind our workmanship. Parts supplied are covered by the manufacturer
           or supplier warranty applicable to those parts. Warranty on rebuild work is
-          subject to correct running-in, servicing at the recommended intervals, and the
+          subject to correct running in, servicing at the recommended intervals, and the
           vehicle not being subjected to misuse, racing, or further modification by others.
         </p>
       </section>

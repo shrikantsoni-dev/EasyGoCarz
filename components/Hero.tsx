@@ -3,8 +3,8 @@ import ScrollReveal from "./ScrollReveal";
 
 const trustBadges = [
   "Free Consultation",
-  "Dyno-Verified Tuning",
-  "Post-Tune Warranty",
+  "Dyno Verified Tuning",
+  "Post Tune Warranty",
   "Transparent Pricing",
 ];
 
@@ -35,7 +35,7 @@ export default function Hero() {
 
           <p className="mt-5 max-w-xl text-base leading-7 text-muted sm:text-lg">
             {siteConfig.name} delivers professional ECM tuning, TCM tuning, ECU remapping,
-            transmission rebuild, and engine rebuild services — backed by dyno data,
+            transmission rebuild, and engine rebuild services, backed by dyno data,
             not guesswork. More power, smoother shifts, better efficiency, and an
             engine that lasts.
           </p>
@@ -139,7 +139,7 @@ function HeroGauge() {
 
         <rect x="150" y="330" width="180" height="46" rx="10" fill="#131316" stroke="#2a2a30" />
         <text x="240" y="359" textAnchor="middle" fill="#ff3b3f" fontSize="18" fontWeight="700" fontFamily="var(--font-display)">
-          DATA-DRIVEN TUNE
+          DATA DRIVEN TUNE
         </text>
 
         <rect x="60" y="60" width="110" height="36" rx="18" fill="#131316" stroke="#2a2a30" />

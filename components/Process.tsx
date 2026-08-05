@@ -4,7 +4,7 @@ const steps = [
   {
     step: "01",
     title: "Book a Consultation",
-    desc: "Tell us about your car and what you want to achieve — more power, better shifts, or a fix for an underlying issue. Call, WhatsApp, or fill the form.",
+    desc: "Tell us about your car and what you want to achieve, such as more power, better shifts, or a fix for an underlying issue. Call, WhatsApp, or fill the form.",
   },
   {
     step: "02",
@@ -14,22 +14,22 @@ const steps = [
   {
     step: "03",
     title: "Transparent Quote",
-    desc: "You receive a clear, written breakdown of the work, timeline, and cost — so there are no surprises once your car is with us.",
+    desc: "You receive a clear, written breakdown of the work, timeline, and cost, so there are no surprises once your car is with us.",
   },
   {
     step: "04",
     title: "Tuning / Rebuild Work",
-    desc: "Our technicians carry out the ECM tuning, TCM tuning, remap, or rebuild using proper equipment and a documented, checklist-driven process.",
+    desc: "Our technicians carry out the ECM tuning, TCM tuning, remap, or rebuild using proper equipment and a documented, checklist driven process.",
   },
   {
     step: "05",
     title: "Testing & Verification",
-    desc: "Every job is verified — data logs reviewed for tunes, compression and leak tests for rebuilds — before your car goes out on a test drive.",
+    desc: "Every job is verified. Data logs are reviewed for tunes, and compression and leak tests are done for rebuilds, before your car goes out on a test drive.",
   },
   {
     step: "06",
-    title: "Handover & Follow-Up",
-    desc: "We walk you through exactly what was done, and stay reachable for follow-up questions or fine-tuning after your first few drives.",
+    title: "Handover & Follow Up",
+    desc: "We walk you through exactly what was done, and stay reachable for follow up questions or fine tuning after your first few drives.",
   },
 ];
 
@@ -42,7 +42,7 @@ export default function Process() {
             Our Process
           </p>
           <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
-            A Straightforward, No-Surprises Workflow
+            A Straightforward, No Surprises Workflow
           </h2>
           <p className="mt-4 text-base leading-7 text-muted">
             Six steps stand between your enquiry and driving away with a properly

@@ -1,6 +1,6 @@
 const items = [
   {
-    label: "Diagnostic-First Approach",
+    label: "Diagnostic First Approach",
     icon: (
       <path d="M4 12h4l2-6 4 12 2-6h4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
     ),
@@ -18,7 +18,7 @@ const items = [
     ),
   },
   {
-    label: "Post-Service Support",
+    label: "Post Service Support",
     icon: (
       <path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.5-9 9-9 9Z" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
     ),

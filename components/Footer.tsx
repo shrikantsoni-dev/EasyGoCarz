@@ -35,7 +35,7 @@ export default function Footer() {
             </Link>
             <p className="mt-4 text-sm leading-6 text-muted">
               Precision ECM &amp; TCM tuning, ECU remapping, and full engine &amp;
-              transmission rebuilds — done right, explained clearly.
+              transmission rebuilds, done right, explained clearly.
             </p>
             <a
               href={siteConfig.gmbUrl}

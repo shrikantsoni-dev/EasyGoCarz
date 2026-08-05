@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     template: `%s | ${siteConfig.name}`,
   },
   description:
-    "Precision ECM tuning, TCM tuning, ECU remapping, transmission rebuild and engine rebuild services. Dyno-backed tuning, transparent process, and results you can feel. Get a free consultation today.",
+    "Precision ECM tuning, TCM tuning, ECU remapping, transmission rebuild and engine rebuild services. Dyno backed tuning, transparent process, and results you can feel. Get a free consultation today.",
   keywords: [
     "ECM tuning",
     "TCM tuning",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: siteConfig.name,
     title: `${siteConfig.name} | ECM, TCM Tuning & ECU Remapping Specialists`,
     description:
-      "Precision ECM tuning, TCM tuning, ECU remapping, transmission rebuild and engine rebuild services. Dyno-backed tuning and a transparent, no-surprises process.",
+      "Precision ECM tuning, TCM tuning, ECU remapping, transmission rebuild and engine rebuild services. Dyno backed tuning and a transparent, no surprises process.",
   },
   twitter: {
     card: "summary_large_image",
@@ -84,7 +84,7 @@ const services = [
   {
     name: "ECM Tuning",
     description:
-      "Custom Engine Control Module recalibration — fuel maps, ignition timing, boost control, and torque limiters tuned to your specific engine.",
+      "Custom Engine Control Module recalibration covering fuel maps, ignition timing, boost control, and torque limiters tuned to your specific engine.",
   },
   {
     name: "TCM Tuning",
@@ -99,12 +99,12 @@ const services = [
   {
     name: "Transmission Rebuild",
     description:
-      "Complete gearbox teardown, component-level inspection, and rebuild with fresh clutch packs, seals, solenoids, and fluid.",
+      "Complete gearbox teardown, component level inspection, and rebuild with fresh clutch packs, seals, solenoids, and fluid.",
   },
   {
     name: "Engine Rebuild",
     description:
-      "Ground-up engine rebuild with precision machining, new bearings, gaskets and rings, plus compression and leak-down testing.",
+      "Ground up engine rebuild with precision machining, new bearings, gaskets and rings, plus compression and leak down testing.",
   },
 ];
 
@@ -122,7 +122,7 @@ const localBusinessSchema = {
   currenciesAccepted: "INR",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "386/76, Opp. Vasant Square Mall, Vasant Kunj",
+    streetAddress: "386/76, Opposite Vasant Square Mall, Masoodpur, Sector D, Vasant Kunj",
     addressLocality: "New Delhi",
     addressRegion: "Delhi",
     postalCode: "110070",

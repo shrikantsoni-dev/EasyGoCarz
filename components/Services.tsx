@@ -13,7 +13,7 @@ const services: Service[] = [
     id: "ecm-tuning",
     title: "ECM Tuning",
     summary:
-      "Your Engine Control Module (ECM) decides how your engine breathes, fuels, and fires — get it wrong and you lose power, efficiency, and reliability. We recalibrate fuel maps, ignition timing, boost control, and torque limiters using real data from your car, not a generic file pulled off the internet.",
+      "Your Engine Control Module (ECM) decides how your engine breathes, fuels, and fires. Get it wrong and you lose power, efficiency, and reliability. We recalibrate fuel maps, ignition timing, boost control, and torque limiters using real data from your car, not a generic file pulled off the internet.",
     points: [
       "Custom fuel & ignition mapping for your exact engine",
       "Boost and torque limiter optimisation",
@@ -34,7 +34,7 @@ const services: Service[] = [
     id: "tcm-tuning",
     title: "TCM Tuning",
     summary:
-      "A powerful engine is wasted on a lazy gearbox. We tune the Transmission Control Module (TCM) to sharpen shift points, firm up clutch pressure, and match shift behaviour to your new power delivery — so every gear change feels intentional, not delayed.",
+      "A powerful engine is wasted on a lazy gearbox. We tune the Transmission Control Module (TCM) to sharpen shift points, firm up clutch pressure, and match shift behaviour to your new power delivery, so every gear change feels intentional, not delayed.",
     points: [
       "Faster, firmer, and smarter shift logic",
       "Shift points recalibrated to match your ECM tune",
@@ -55,10 +55,10 @@ const services: Service[] = [
     id: "ecu-remapping",
     title: "ECU Remapping",
     summary:
-      "ECU remapping goes beyond a single parameter — it's a full rewrite of your car's software calibration for real, measurable gains in power, torque, and fuel efficiency. Every remap is built around your car's specification, fuel quality, and how you actually drive.",
+      "ECU remapping goes beyond a single parameter. It's a full rewrite of your car's software calibration for real, measurable gains in power, torque, and fuel efficiency. Every remap is built around your car's specification, fuel quality, and how you actually drive.",
     points: [
-      "Stage-based tuning options to match your goals",
-      "Read-write-verify process with pre-tune diagnostics",
+      "Stage based tuning options to match your goals",
+      "Read, write, and verify process with pre tune diagnostics",
       "Fuel efficiency and performance remaps available separately",
       "Original file backup kept for full reversibility",
     ],
@@ -76,12 +76,12 @@ const services: Service[] = [
     id: "transmission-rebuild",
     title: "Transmission Rebuild",
     summary:
-      "Slipping gears, delayed engagement, or a transmission that's given up? We strip the gearbox down completely, inspect every clutch pack, band, solenoid, and bearing, and rebuild it with fresh components to factory-plus tolerances — not a quick patch-up.",
+      "Slipping gears, delayed engagement, or a transmission that's given up? We strip the gearbox down completely, inspect every clutch pack, band, solenoid, and bearing, and rebuild it with fresh components to factory plus tolerances, not a quick patch up.",
     points: [
-      "Full teardown, inspection, and component-level diagnosis",
-      "OEM-grade or upgraded internals depending on your needs",
+      "Full teardown, inspection, and component level diagnosis",
+      "OEM grade or upgraded internals depending on your needs",
       "Fresh seals, filters, and fluid as standard",
-      "Post-rebuild road testing before handover",
+      "Post rebuild road testing before handover",
     ],
     icon: (
       <path
@@ -97,12 +97,12 @@ const services: Service[] = [
     id: "engine-rebuild",
     title: "Engine Rebuild",
     summary:
-      "When an engine has worn past what a repair can fix — low compression, bearing knock, oil consumption, or overheating damage — a full rebuild is what actually solves it. We machine, measure, and rebuild your engine from the block up, so it runs like new, not like a temporary fix.",
+      "When an engine has worn past what a repair can fix, such as low compression, bearing knock, oil consumption, or overheating damage, a full rebuild is what actually solves it. We machine, measure, and rebuild your engine from the block up, so it runs like new, not like a temporary fix.",
     points: [
-      "Complete strip-down with precision machining where needed",
+      "Complete strip down with precision machining where needed",
       "New bearings, gaskets, rings, and wear components",
-      "Compression and leak-down testing before reassembly",
-      "Break-in guidance to protect your rebuilt engine",
+      "Compression and leak down testing before reassembly",
+      "Break in guidance to protect your rebuilt engine",
     ],
     icon: (
       <path
@@ -128,8 +128,8 @@ export default function Services() {
             Tuning &amp; Rebuild Services Built Around Your Car
           </h2>
           <p className="mt-4 text-base leading-7 text-muted">
-            From a precise ECM recalibration to a ground-up engine rebuild, every
-            service starts with proper diagnostics — not assumptions.
+            From a precise ECM recalibration to a ground up engine rebuild, every
+            service starts with proper diagnostics, not assumptions.
           </p>
         </ScrollReveal>
 

@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
         <h2>Enquiry Form and WhatsApp</h2>
         <p>
           Our website enquiry form does not store your details on our servers. When you
-          submit the form, it opens WhatsApp with your details pre-filled so you can review
+          submit the form, it opens WhatsApp with your details pre filled so you can review
           and send the message yourself. Messages sent through WhatsApp are subject to
           WhatsApp&rsquo;s own privacy practices, which you can review on their website.
         </p>
@@ -74,10 +74,10 @@ export default function PrivacyPolicy() {
       </section>
 
       <section>
-        <h2>Third-Party Services</h2>
+        <h2>Third Party Services</h2>
         <p>
           Our site embeds a Google Maps view of our workshop location and links to our
-          Google Business Profile and WhatsApp. These third-party services have their own
+          Google Business Profile and WhatsApp. These third party services have their own
           privacy policies, and we do not control how they collect or process data.
         </p>
       </section>

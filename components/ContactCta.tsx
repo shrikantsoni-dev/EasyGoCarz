@@ -53,7 +53,7 @@ export default function ContactCta() {
           </h2>
           <p className="mt-4 text-base leading-7 text-muted">
             Share a few details about your car and what you&apos;re looking for. We&apos;ll
-            get back to you with honest advice — even if that advice is
+            get back to you with honest advice, even if that advice is
             &ldquo;you don&rsquo;t need this yet.&rdquo;
           </p>
 
@@ -192,7 +192,7 @@ export default function ContactCta() {
               </svg>
             </button>
             <p className="mt-3 text-center text-xs text-muted">
-              This opens WhatsApp with your details pre-filled — nothing is sent until you hit send there.
+              This opens WhatsApp with your details pre filled. Nothing is sent until you hit send there.
             </p>
           </form>
         </ScrollReveal>
