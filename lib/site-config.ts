@@ -7,9 +7,9 @@ export const siteConfig = {
   tagline: "ECM & TCM Tuning, ECU Remapping, Engine & Transmission Rebuild",
   description:
     "Redline Autotech specialises in precision ECM tuning, TCM tuning, ECU remapping, transmission rebuild, and engine rebuild services. Dyno tested, data backed tuning for real power gains, smoother shifts, and a longer engine life.",
-  phone: "+919555999843",
-  phoneDisplay: "+91 95559 99843",
-  whatsapp: "919555999843",
+  phone: "+919555998843",
+  phoneDisplay: "+91 95559 98843",
+  whatsapp: "919555998843",
   email: "sachin@redlineauto.in",
   city: "New Delhi",
   serviceArea: "New Delhi NCR",

@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import { siteConfig, whatsappLink } from "@/lib/site-config";
+import { pushToDataLayer } from "@/lib/gtm";
 import ScrollReveal from "./ScrollReveal";
 
 const serviceOptions = [
@@ -14,6 +16,7 @@ const serviceOptions = [
 ];
 
 export default function ContactCta() {
+  const router = useRouter();
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
   const [car, setCar] = useState("");
@@ -34,7 +37,13 @@ export default function ContactCta() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    pushToDataLayer({
+      event: "form_submit",
+      form_name: "contact_cta",
+      service_interest: service,
+    });
     window.open(whatsappLink(buildMessage()), "_blank", "noopener,noreferrer");
+    router.push("/thank-you");
   };
 
   return (
